@@ -13,8 +13,8 @@ Requires Java 21. See [here](https://docs.papermc.io/misc/java-install) how to u
 
 ## Requirements
 - Java 21
-- Paper/Folia 1.21+ (built against Folia API)
-- Worlds plugin (soft dependency)
+- Paper/Folia 1.21.x
+- [Worlds plugin](https://github.com/TheNextLvl-net/worlds)
 
 ## Installation
 1. Build the plugin or download the jar.

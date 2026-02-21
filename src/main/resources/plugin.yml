@@ -1,0 +1,30 @@
+name: WorldsInventories
+main: org.titago.worldsinventories.WorldsInventories
+version: 1.0.0
+api-version: 1.21
+authors: ["AMapeKiberT"]
+folia-supported: true
+softdepend: ["Worlds"]
+commands:
+  worldsinv:
+    description: WorldsInventories admin command
+    usage: /<command> reload|debug|group
+permissions:
+  worldsinventories.admin:
+    description: Allows access to all WorldsInventories admin commands
+    default: op
+  worldsinventories.reload:
+    description: Allows reloading WorldsInventories config
+    default: op
+    children:
+      worldsinventories.admin: true
+  worldsinventories.debug:
+    description: Allows toggling WorldsInventories debug logging
+    default: op
+    children:
+      worldsinventories.admin: true
+  worldsinventories.group:
+    description: Allows managing WorldsInventories groups
+    default: op
+    children:
+      worldsinventories.admin: true

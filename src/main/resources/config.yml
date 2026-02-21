@@ -1,0 +1,30 @@
+default_group: default
+default_group_per_world: true
+auto_add_to_default: true
+debug: false
+
+groups:
+  default:
+    worlds:
+      - world
+      - world_nether
+      - world_the_end
+    options:
+      inventory: true
+      enderchest: true
+      health: true
+      hunger: true
+      experience: true
+      potion_effects: true
+      gamemode: true
+  example:
+    worlds:
+      - example
+    options:
+      inventory: true
+      enderchest: true
+      health: true
+      hunger: true
+      experience: true
+      potion_effects: true
+      gamemode: true

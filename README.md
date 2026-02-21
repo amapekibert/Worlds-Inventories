@@ -1,6 +1,6 @@
 # Worlds-Inventories
 
-Worlds-Inventories is an addon for the Worlds plugin that lets you use different player stats per world group. It can separate inventories, health, hunger, experience, potion effects, and gamemode between groups of worlds.
+Worlds-Inventories is an addon for the [Worlds plugin](https://github.com/TheNextLvl-net/worlds) that lets you use different player stats per world group. It can separate inventories, health, hunger, experience, potion effects, and gamemode between groups of worlds.
 
 Requires Java 21. See [here](https://docs.papermc.io/misc/java-install) how to update your installed Java version.
 
